@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/black"
+            android:contentDescription="Save"
+            android:onClick="buttonSaveClick"
+            android:src="@android:drawable/ic_menu_save" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/buttonUpload"
+            android:background="@android:color/black"
+            android:onClick="buttonUploadClick"
+            android:src="@android:drawable/ic_menu_upload" />
+    </RelativeLayout>
+
+    <project.androidfinal.DrawingView
+        android:id="@+id/drawingView"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.16"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="colorsButtonClicked"
+            android:src="@drawable/ks_color" />
+        
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="buttonBrushClick"
+            android:background="@android:color/black"
+            android:src="@drawable/ic_launcher"  />
+    </RelativeLayout>
+
+</LinearLayout>

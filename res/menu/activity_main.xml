@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_new"        
+        android:title="New"/>
+    <item
+        android:id="@+id/menu_Import"
+        android:title="Import"/>      
+    <item
+        android:id="@+id/menu_Upload"
+        android:title="Upload">       
+    </item>
+    <item
+        android:id="@+id/menu_preferences"
+        android:title="Preferences"/>
+    <item
+        android:id="@+id/menu_Show_Gallery"
+        android:title="Show Gallery"/>
+    <item
+        android:id="@+id/menu_Send"
+        android:title="Send"/>
+
+</menu>
+

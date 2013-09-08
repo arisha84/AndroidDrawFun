@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="BrushColors">
+         <item>white </item>
+        <item>black </item>       
+        <item>red </item>
+        <item>blue </item>
+        <item>green </item>
+        <item>gray </item>
+        <item>yellow </item>
+    </string-array>
+    <string-array name="BrushColorsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+</resources>
